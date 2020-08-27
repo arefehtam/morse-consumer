@@ -29,7 +29,7 @@ trait ConsumeMorseObjectUseCase extends ConsumeMorseObjectService {
     * When there is any message on queue, consumer processes that message and print it
     *
     * @param count: for retrying the connection to rabbitmq
-    * @param ec: implicit execution context for asynchronous communication with morse service
+    * @param ec: implicit execution context for asynchronous communication with morse producer service
     * @return Done: this is the akka lib object in case of successful operation
     * In case of connection error, ServiceUnavailableException object is returned,
     * For other errors, their corresponding object is returned
