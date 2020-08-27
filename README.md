@@ -1,5 +1,6 @@
 # Morse-Consumer
 
+This is written in `scala`.
 In order to run this project(preferably install InteliJIdea community edition):
 
 * Install `sbt`. (For more info, click [here] [1])
